@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "name" : "Deepankar", 
+        "profession": "Student",
+        "location" : "New Delhi"
+    },
+    {
+        "id" : 2,
+        "name" : "Alice", 
+        "profession": "Employee",
+        "location" : "Mumbai, Maharastra"
+    },
+    {
+        "id" : 3,
+        "name" : "Bob", 
+        "profession": "Hacker",
+        "location" : "Moscow, Russia"
+    },
+    {
+        "id" : 4,
+        "name" : "Jackson",
+        "profession": "Microservices Expert",
+        "location" : "Vellore, Tamil Nadu"
+    }
+]
