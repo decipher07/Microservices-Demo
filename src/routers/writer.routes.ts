@@ -12,6 +12,10 @@ interface writerAccountInterface {
     location : string
 }
 
+router.get('/', ( req : Request, res : Response ) : Response => {
+    return res.status(201).send("Writer Service Running Successfully.........")
+})
+
 router.get('/:id', ( req: Request, res : Response ) : Response  => {
     let database : writerAccountInterface[] = writerDatabase ;
 

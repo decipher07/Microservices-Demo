@@ -10,6 +10,10 @@ interface blogsInterface {
     writerid : number 
 }
 
+router.get('/', ( req : Request, res : Response ) : Response => {
+    return res.status(201).send("Blog Service Running Successfully.........")
+})
+
 router.get('/:writerId' , ( req : Request, res : Response ) : Response => {
     let writerId : string = req.params.writerId ; 
 
