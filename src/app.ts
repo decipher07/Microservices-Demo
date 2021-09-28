@@ -23,8 +23,8 @@ writerApp.listen(writerPort, () : void => {
     console.log(`Server For Writer Port Running at : ${writerPort}`);
 })
 
-bloggerApp.listen(blogPort, () : void => {
-    console.log(`Server running at Blogger Port : ${blogPort}`)
-})
+// bloggerApp.listen(blogPort, () : void => {
+//     console.log(`Server running at Blogger Port : ${blogPort}`)
+// })
 
-export { writerApp, bloggerApp }
+export { writerApp }

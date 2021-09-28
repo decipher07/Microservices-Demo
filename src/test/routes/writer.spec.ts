@@ -28,7 +28,7 @@ describe("Check : Writer Service ", () : void => {
         chai.request(writerApp)
             .get('/writer/blogs-by-writer/Deepankar')
             .end((err : any , res : any ) => {
-                expect(res.status).to.be.equal(201);
+                expect(res.status).to.be.equal(403);
                 done();
             })
     })

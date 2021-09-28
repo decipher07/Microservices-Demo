@@ -56,7 +56,8 @@ router.get('/blogs-by-writer/:nameOfWriter', async ( req : Request , res : Respo
                 });
 
             }).on("error", (err) => {
-              console.log("Error: " + err.message);        
+              console.log("Error: " + err.message);
+              res.status(403).json({"error" : err.message });
         });
 
 
