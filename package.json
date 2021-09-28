@@ -7,7 +7,8 @@
     "start": "tsc && node build/src/app.js",
     "dev": "nodemon build/src/app.js",
     "watch-ts": "tsc -w",
-    "test": "NODE_ENV=test mocha -r ts-node/register -r tsconfig-paths/register \"src/test/**/*.spec.ts\" --exit"
+    "test": "NODE_ENV=test mocha -r ts-node/register -r tsconfig-paths/register \"src/test/**/*.spec.ts\" --exit",
+    "package": "tsc"
   },
   "repository": {
     "type": "git",
